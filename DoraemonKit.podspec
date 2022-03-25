@@ -6,7 +6,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DoraemonKit'
+  s.name             = 'DLDoraemonKit'
   s.version          = '3.1.2'
   s.summary          = 'iOS 各式各样的工具集合'
 
