@@ -13,6 +13,7 @@
 		18C7CAAE26FB5F8F00A47F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C7CAAD26FB5F8F00A47F7C /* Assets.xcassets */; };
 		18C7CAB126FB5F8F00A47F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7CAAF26FB5F8F00A47F7C /* LaunchScreen.storyboard */; };
 		8BFA0A4D8625F5F35983C2FF /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF31F4800187AA43EF17C9AB /* Pods_Demo.framework */; };
+		EE726C3C27EDB1DF00BA47E6 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE726C3B27EDB1DF00BA47E6 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		18C7CAB226FB5F8F00A47F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF31F4800187AA43EF17C9AB /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6833A07F0818E63D44A2B9 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE726C3B27EDB1DF00BA47E6 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				18C7CAA426FB5F8D00A47F7C /* AppDelegate.swift */,
 				18C7CAA826FB5F8D00A47F7C /* ViewController.swift */,
+				EE726C3B27EDB1DF00BA47E6 /* TestViewController.swift */,
 				18C7CAAA26FB5F8D00A47F7C /* Main.storyboard */,
 				18C7CAAD26FB5F8F00A47F7C /* Assets.xcassets */,
 				18C7CAAF26FB5F8F00A47F7C /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C7CAA926FB5F8D00A47F7C /* ViewController.swift in Sources */,
+				EE726C3C27EDB1DF00BA47E6 /* TestViewController.swift in Sources */,
 				18C7CAA526FB5F8D00A47F7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

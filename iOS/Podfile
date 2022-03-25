@@ -7,5 +7,5 @@ target 'Demo' do
 
   # Pods for Demo
   pod 'DoraemonKit', :path => '..' # , :subspecs => ['Core']
-
+  pod 'DoraemonKit/WithMLeaksFinder', :path => '..'
 end
